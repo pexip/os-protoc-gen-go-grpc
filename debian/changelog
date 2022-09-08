@@ -1,0 +1,5 @@
+protoc-gen-go-grpc (1.2.0-1pexip1) pexip-bullseye; urgency=medium
+
+  * Initial upload.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 08 Sep 2022 13:22:51 +0100

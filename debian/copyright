@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: protoc-gen-go-grpc
+Source: https://github.com/grpc/grpc-go
+
+Files: *
+Copyright: 2014- GRPC Authors
+License: Apache-2.0
+ See /usr/share/common-licenses/Apache-2.0
+
+Files: debian/*
+Copyright: 2022 Pexip AS <packaging@pexip.com>
+License: Apache-2.0
+ See /usr/share/common-licenses/Apache-2.0

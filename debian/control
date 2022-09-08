@@ -1,0 +1,13 @@
+Source: protoc-gen-go-grpc
+Section: golang
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Build-Depends: debhelper-compat (= 13), golang
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+
+Package: protoc-gen-go-grpc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GRPC protobuf compiler for Go
+ Protobuf compiler for GRPC for Go

@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+#export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	cd cmd/protoc-gen-go-grpc && go build ./
+
+override_dh_auto_install:
+	mkdir -p $(CURDIR)/debian/tmp/usr/bin
+	cp $(CURDIR)/cmd/protoc-gen-go-grpc/protoc-gen-go-grpc $(CURDIR)/debian/tmp/usr/bin/
