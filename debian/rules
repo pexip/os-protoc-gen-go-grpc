@@ -7,7 +7,7 @@
 	dh $@
 
 override_dh_auto_build:
-	cd cmd/protoc-gen-go-grpc && go build ./
+	cd cmd/protoc-gen-go-grpc && go build -mod vendor ./
 
 override_dh_auto_install:
 	mkdir -p $(CURDIR)/debian/tmp/usr/bin
