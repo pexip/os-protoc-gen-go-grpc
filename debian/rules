@@ -12,3 +12,6 @@ override_dh_auto_build:
 override_dh_auto_install:
 	mkdir -p $(CURDIR)/debian/tmp/usr/bin
 	cp $(CURDIR)/cmd/protoc-gen-go-grpc/protoc-gen-go-grpc $(CURDIR)/debian/tmp/usr/bin/
+
+override_dh_dwz:
+	# Don't use dwz on this package - the symbols are already compressed
