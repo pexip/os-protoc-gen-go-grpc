@@ -1,3 +1,9 @@
+protoc-gen-go-grpc (1.2.0-1+pexip24u4) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:17:30 +0000
+
 protoc-gen-go-grpc (1.2.0-1pexip3) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
